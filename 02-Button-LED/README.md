@@ -7,13 +7,8 @@ Upgraded from basic hold behavior to toggle using state tracking.
 
 ## Photos
 <div align="center">
-
 <img src="circuit.jpg" width="600"/>
 <br><br>
-<img src="closeup.jpg" width="600"/>
-<br><br>
-<img src="action.jpg" width="600"/>
-
 </div>
 
 <div align="center">
