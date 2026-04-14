@@ -9,6 +9,7 @@ Upgraded from basic hold behavior to toggle using state tracking.
 ![Circuit Photo](circuit.jpg)
 ![Button Wiring](closeup.jpg)
 ![LED On](action.jpg)
+![Button Toggle Demo](toggle.gif)
 
 ## Components Used
 - 1x Arduino Uno
