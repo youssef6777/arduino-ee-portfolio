@@ -9,8 +9,8 @@ Progressing from basic circuits toward IoT systems and PCB design.
 | # | Project | Concepts Learned | Status |
 |---|---------|-----------------|--------|
 | 01 | Blinking LED | Digital output, pinMode, delay | ✅ Complete |
-| 02 | Button Controlled LED | Digital input, pull-down resistors | 🔄 In Progress |
-| 03 | Potentiometer Brightness | Analog input, PWM, map() | ⬜ Upcoming |
+| 02 | Button Controlled LED | Digital input, pull-down resistors | ✅ Complete |
+| 03 | Potentiometer Brightness | Analog input, PWM, map() | 🔄 In Progress |
 | 04 | Temperature Monitor | ADC, sensor interfacing, Serial | ⬜ Upcoming |
 | 05 | Servo Motor Control | Actuator control, PWM signals | ⬜ Upcoming |
 | 06 | Traffic Light System | State machines, timing | ⬜ Upcoming |
