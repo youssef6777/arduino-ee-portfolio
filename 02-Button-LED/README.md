@@ -17,7 +17,7 @@ Upgraded from basic hold behavior to toggle using state tracking.
 </div>
 
 <div align="center">
-<img src="demo.gif" width="600"/>
+<img src="toggle.gif" width="600"/>
 </div>
 
 
