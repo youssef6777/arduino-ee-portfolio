@@ -6,10 +6,20 @@ the LED state — one press turns it on, next press turns it off.
 Upgraded from basic hold behavior to toggle using state tracking.
 
 ## Photos
-![Circuit Photo](circuit.jpg)
-![Button Wiring](closeup.jpg)
-![LED On](action.jpg)
-![Button Toggle Demo](toggle.gif)
+<div align="center">
+
+<img src="circuit.jpg" width="600"/>
+<br><br>
+<img src="closeup.jpg" width="600"/>
+<br><br>
+<img src="action.jpg" width="600"/>
+
+</div>
+
+<div align="center">
+<img src="demo.gif" width="600"/>
+</div>
+
 
 ## Components Used
 - 1x Arduino Uno
