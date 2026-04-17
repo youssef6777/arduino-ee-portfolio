@@ -1,10 +1,23 @@
-Finger LED Tracker
+# Finger LED Tracker
 
 Controls 5 individual LEDs in real time using hand tracking from a webcam.
 Each LED corresponds to one finger — raise a finger, its LED lights up instantly.
 
 ## Photos
+<div align="center">
+<img src="images/circuit.jpg" width="600"/>
+<br>
+</div>
 
+<div align="center">
+<img src="images/hand.jpg" width="600"/>
+<br>
+</div>
+
+<div align="center">
+<img src="images/action.gif" width="600"/>
+<br>
+</div>
 
 ## How It Works
 1. Python captures webcam feed and runs MediaPipe hand landmark detection
@@ -41,11 +54,11 @@ Each LED corresponds to one finger — raise a finger, its LED lights up instant
 4. Run `python hand_tracker.py`
 
 ## Challenges
-- No prior Python experience — had to learn syntax, debugging, and how
+- No prior Python experience so I had to learn syntax, debugging, and how
   to run scripts from the terminal from scratch while building this
 - MediaPipe's newer versions dropped the `solutions` API requiring a
   rewrite to use the Tasks API
-- Python 3.13 incompatibility with MediaPipe — had to install Python 3.11
+- Python 3.13 incompatibility with MediaPipe, had to install Python 3.11
   specifically to get it working
 - Learning to read error messages and fix dependency issues independently
 
