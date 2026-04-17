@@ -7,12 +7,12 @@ Upgraded from basic hold behavior to toggle using state tracking.
 
 ## Photos
 <div align="center">
-<img src="circuit.jpg" width="600"/>
+<img src="images/circuit.jpg" width="600"/>
 <br><br>
 </div>
 
 <div align="center">
-<img src="toggle.gif" width="600"/>
+<img src="images/toggle.gif" width="600"/>
 </div>
 
 
