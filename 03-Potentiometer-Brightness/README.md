@@ -7,12 +7,12 @@ completely off to full brightness in real time.
 
 ## Photos
 <div align="center">
-<img src="circuit.jpg" width="600"/>
+<img src="images/circuit.jpg" width="600"/>
 <br><br>
 </div>
 
 <div align="center">
-<img src="action.gif" width="600"/>
+<img src="images/action.gif" width="600"/>
 </div>
 
 
