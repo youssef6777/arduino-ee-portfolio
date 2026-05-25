@@ -66,7 +66,7 @@ real-time computer vision.
 
 Junior at JP Taravella High School completing the AICE diploma.
 Ranked 2nd out of 553 students. Self-teaching EE independently
-with no prior formal training or family background in science.
+with no prior formal training or family background in STEM.
 
 ---
 
