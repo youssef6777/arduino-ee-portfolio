@@ -28,7 +28,7 @@ electrical engineering through hands-on Arduino projects.*
 | 01 | [Blinking LED](01-Blinking-LED/) | Digital output, pinMode | ✅ |
 | 02 | [Button Toggle LED](02-Button-LED/) | Digital input, pull-down resistors, debouncing | ✅ |
 | 03 | [Potentiometer Brightness](03-Potentiometer-Brightness/) | Analog input, PWM, ADC | ✅ |
-| 04 | [Water Level Sensor](04-Water-Sensor/) | Analog sensing, threshold logic, calibration | ✅ |
+| 04 | [Water Level Sensor](04-Water-Level-Monitor/) | Analog sensing, threshold logic, calibration | ✅ |
 
 ---
 
