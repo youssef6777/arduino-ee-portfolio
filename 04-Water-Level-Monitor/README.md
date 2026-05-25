@@ -77,7 +77,7 @@ the current state and a passive buzzer fires an alarm when the level is critical
 
 Red and yellow LEDs were flickering rapidly at the boundary between states even
 when the sensor was held still. Opened Serial Monitor and saw the raw readings
-oscillating between 248 and 252 — right on the `low_water` threshold of 250.
+oscillating between 248 and 252, right on the `low_water` threshold of 250.
 A single noisy reading was enough to flip the state on every loop cycle.
 Identified this as electrical noise inherent to resistive sensors in water.
 Fixed by tightening the threshold gap and adding a `delay()` to slow the read
