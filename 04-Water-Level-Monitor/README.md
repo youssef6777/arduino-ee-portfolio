@@ -3,18 +3,16 @@
 Monitors water level in real time using a resistive sensor. Three LEDs indicate
 the current state and a passive buzzer fires an alarm when the level is critically high.
 
+## Photos
+
+![Top-down view](images/circuit.jpg)
+
 ## Demo
 
 <!-- Add your GIF here -->
 ![Water level demo](images/demo.gif)
 
 <!-- Drag and drop your video file into the GitHub README editor to embed it -->
-
-## Photos
-
-![Top-down view](images/circuit1.jpg)
-
-![Circuit overview](images/circuit2.jpg)
 
 ## How It Works
 
