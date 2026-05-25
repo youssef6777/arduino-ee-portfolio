@@ -5,11 +5,15 @@ the current state and a passive buzzer fires an alarm when the level is critical
 
 ## Photos
 
-![Circuit photo](images/circuit.jpg)
+<div align="center">
+<img src="circuit.jpg" width="600"/>
+</div>
 
 ## Demo
 
-![Demo](images/demo.gif)
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/dc1250df-4377-4baf-9883-16abbc6299e1" width="400" controls></video>
+</div>
 
 ## How It Works
 
