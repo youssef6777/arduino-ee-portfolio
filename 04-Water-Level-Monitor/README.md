@@ -5,14 +5,11 @@ the current state and a passive buzzer fires an alarm when the level is critical
 
 ## Photos
 
-![Top-down view](images/circuit.jpg)
+![Circuit photo](images/circuit.jpg)
 
 ## Demo
 
-<!-- Add your GIF here -->
-![Water level demo](images/demo.gif)
-
-<!-- Drag and drop your video file into the GitHub README editor to embed it -->
+![Demo](images/demo.gif)
 
 ## How It Works
 
