@@ -18,7 +18,7 @@ the current state and a passive buzzer fires an alarm when the level is critical
 ## How It Works
 
 1. A resistive water sensor outputs an analog voltage proportional to how much of
-   its surface is submerged — more contact with water means lower resistance and
+   its surface is submerged, more contact with water means lower resistance and
    higher voltage at the signal pin
 2. `analogRead()` converts that voltage to a value between 0 and 1023
 3. The value is compared against two thresholds to determine one of three states
