@@ -99,9 +99,9 @@ The `LiquidCrystal` library is built into Arduino IDE — no installation needed
 
 This was my first time working with both a motor driver and an LCD display, so there was a solid learning curve.
 
-The biggest challenge was wiring. With the DHT11, L293D motor driver, LCD1602, and LEDs all running at the same time, the breadboard got very messy very fast. I ended up having to move the LEDs to a separate mini breadboard just to have enough space to work cleanly.
+The biggest challenge was wiring. With the DHT11, L293D motor driver, LCD1602, and LEDs all running at the same time, the breadboard got very messy very fast. I ended up having to move the LCD to a separate mini breadboard just to have enough space to work cleanly.
 
-Getting the components to actually work also took some troubleshooting. The DHT11 kept throwing sensor errors until I got the wiring sorted out, and I had to figure out how to install external libraries for both the sensor and the LCD display. The LCD in particular took some back and forth — I had to adjust the contrast potentiometer and double check each of the 16 pins before it started displaying text correctly.
+Getting the components to actually work also took some troubleshooting. The DHT11 kept throwing sensor errors until I got the wiring sorted out, and I had to figure out how to install external libraries for both the sensor and the LCD display. The LCD in particular took some back and forth. I had to adjust the contrast potentiometer and double check each of the 16 pins before it started displaying text correctly.
 
 Through this project I learned how to use the L293D motor driver to control a DC motor, how to wire and program an LCD1602 display, how to install and use external Arduino libraries, and how to debug hardware issues when things don't work the first time.
 
