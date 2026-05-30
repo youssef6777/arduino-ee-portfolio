@@ -2,9 +2,24 @@
 
 An Arduino project that monitors ambient temperature using a DHT11 sensor and automatically controls a fan via an L293D motor driver. When the temperature exceeds a set threshold, the fan turns on to cool the environment. Temperature and fan status are displayed on an LCD1602, and LED indicators provide a visual status at a glance.
 
+## Inspiration
+
+The idea came from thinking about energy waste. Fans and cooling systems that run constantly regardless of whether they actually need to. Bathroom exhaust fans run long after the humidity clears, PC case fans in budget builds spin at full speed 24/7, and garage or shed fans get left on all day even after the space has cooled down. This project solves that by only activating the fan when the temperature exceeds a set threshold, saving energy while keeping the environment cool. On top of that, the whole system is fully automated — once it's set up, it monitors and responds to temperature changes on its own without any manual input. No lifting a finger.
+
 ## How It Works
 
 The Arduino reads the temperature every 2 seconds from a DHT11 sensor. If the temperature reaches or exceeds the threshold (default: 82°F), the L293D motor driver activates the fan at full speed and the red LED turns on. When the temperature drops back below the threshold, the fan shuts off and the green LED turns on. All readings and status are displayed live on the LCD.
+
+## Photos
+
+### Full Circuit
+![Full Circuit](circuit.jpg)
+
+### Fan ON (Too Hot)
+![Fan On](on.jpg)
+
+### Fan OFF (Safe)
+![Fan Off](off.jpg)
 
 ## Components
 
@@ -77,57 +92,6 @@ Install the **DHT sensor library by Adafruit** via the Arduino Library Manager:
 
 The `LiquidCrystal` library is built into Arduino IDE — no installation needed.
 
-## Usage
-
-1. Wire the components according to the wiring tables above
-2. Open `fan_control.ino` in the Arduino IDE
-3. Upload the sketch to your Arduino
-4. Open the Serial Monitor at **9600 baud** to view live temperature readings and fan status
-5. Adjust `TEMP_THRESHOLD` in the code to change the trigger temperature (in °F)
-
-## Configuration
-
-```cpp
-// Change this value to set your desired trigger temperature (Fahrenheit)
-const float TEMP_THRESHOLD = 82.0;
-```
-
-## LCD Display
-
-```
-Temp: 79.0 F
-Fan: OFF (Safe)
-```
-```
-Temp: 83.0 F
-Fan: ON  (Hot!)
-```
-
-## LED Indicators
-
-| LED | Meaning |
-|---|---|
-| Green ON | Temperature is safe, fan is off |
-| Red ON | Temperature exceeded threshold, fan is on |
-| Both flashing | Sensor error — check DHT11 wiring |
-
-## Serial Monitor Output
-
-```
-Current Temp: 79.00 F -> FAN IS OFF (Temp safe)
-Current Temp: 83.00 F -> FAN IS ON (Too hot!)
-```
-
-## Future Improvements
-
-- Variable fan speed using PWM proportional to temperature
-- Multiple speed thresholds (low / medium / high)
-- Temperature data logging to SD card
-
-## License
-
-MIT License
-
 ## Challenges & What I Learned
 
 This was my first time working with both a motor driver and an LCD display, so there was a solid learning curve.
@@ -137,3 +101,9 @@ The biggest challenge was wiring. With the DHT11, L293D motor driver, LCD1602, a
 Getting the components to actually work also took some troubleshooting. The DHT11 kept throwing sensor errors until I got the wiring sorted out, and I had to figure out how to install external libraries for both the sensor and the LCD display. The LCD in particular took some back and forth — I had to adjust the contrast potentiometer and double check each of the 16 pins before it started displaying text correctly.
 
 Through this project I learned how to use the L293D motor driver to control a DC motor, how to wire and program an LCD1602 display, how to install and use external Arduino libraries, and how to debug hardware issues when things don't work the first time.
+
+## Future Improvements
+
+- Variable fan speed using PWM proportional to temperature
+- Multiple speed thresholds (low / medium / high)
+- Temperature data logging to SD card
