@@ -2,7 +2,7 @@
 
 # ⚡ Youssef's EE Project Portfolio
 
-![Projects](https://img.shields.io/badge/Projects-5-blue?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Projects-6-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 ![School](https://img.shields.io/badge/School-JP%20Taravella-orange?style=for-the-badge)
 
@@ -29,6 +29,7 @@ electrical engineering through hands-on Arduino projects.*
 | 02 | [Button Toggle LED](02-Button-LED/) | Digital input, pull-down resistors, debouncing | ✅ |
 | 03 | [Potentiometer Brightness](03-Potentiometer-Brightness/) | Analog input, PWM, ADC | ✅ |
 | 04 | [Water Level Sensor](04-Water-Level-Monitor/) | Analog sensing, threshold logic, calibration | ✅ |
+| 05 | [Temperature-Controlled Fan](05-Temperature-Fan/) | Sensor interfacing, motor driver, LCD display, LED indicators, threshold automation | ✅ |
 
 ---
 
@@ -36,7 +37,6 @@ electrical engineering through hands-on Arduino projects.*
 
 | Project | Concepts | Status |
 |---------|----------|--------|
-| Temperature Monitor | Sensor interfacing, ADC | ⬜ |
 | Servo Motor Control | Actuator control, PWM | ⬜ |
 | Traffic Light | State machines, timing | ⬜ |
 | Robot Hand | Computer vision, servo control, serial comms | ⬜ |
