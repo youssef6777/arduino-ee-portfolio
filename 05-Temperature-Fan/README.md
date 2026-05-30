@@ -12,14 +12,17 @@ The Arduino reads the temperature every 2 seconds from a DHT11 sensor. If the te
 
 ## Photos
 
-### Full Circuit
-![Full Circuit](circuit.jpg)
+<div align="center">
+<img src="circuit.jpg" width="600"/>
+</div>
 
-### Fan ON (Too Hot)
-![Fan On](on.jpg)
+<div align="center">
+<img src="off.jpg" width="600"/>
+</div>
 
-### Fan OFF (Safe)
-![Fan Off](off.jpg)
+<div align="center">
+<img src="on.jpg" width="600"/>
+</div>
 
 ## Components
 
