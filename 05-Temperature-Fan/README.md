@@ -4,7 +4,7 @@ An Arduino project that monitors ambient temperature using a DHT11 sensor and au
 
 ## Inspiration
 
-The idea came from thinking about energy waste. Fans and cooling systems that run constantly regardless of whether they actually need to. Bathroom exhaust fans run long after the humidity clears, PC case fans in budget builds spin at full speed 24/7, and garage or shed fans get left on all day even after the space has cooled down. This project solves that by only activating the fan when the temperature exceeds a set threshold, saving energy while keeping the environment cool. On top of that, the whole system is fully automated — once it's set up, it monitors and responds to temperature changes on its own without any manual input. No lifting a finger.
+The idea came from thinking about energy waste. Fans and cooling systems that run constantly regardless of whether they actually need to. Bathroom exhaust fans run long after the humidity clears, PC case fans in budget builds spin at full speed 24/7, and garage or shed fans get left on all day even after the space has cooled down. This project solves that by only activating the fan when the temperature exceeds a set threshold, saving energy while keeping the environment cool. On top of that, the whole system is fully automated, once it's set up, it monitors and responds to temperature changes on its own without any manual input.
 
 ## How It Works
 
