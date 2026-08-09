@@ -14,11 +14,6 @@ Each LED corresponds to one finger — raise a finger, its LED lights up instant
 <br>
 </div>
 
-<div align="center">
-<img src="images/action.gif" width="600"/>
-<br>
-</div>
-
 ## How It Works
 1. Python captures webcam feed and runs MediaPipe hand landmark detection
 2. Finger states (up/down) are encoded as a 5-bit string e.g. `10110`
